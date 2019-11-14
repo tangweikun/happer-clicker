@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Happy Clicker
 
-## Available Scripts
+一个简单的计数器，可以'加一'，'减一'和'重置'
+[效果预览](https://tangweikun.github.io/happy-clicker)
 
-In the project directory, you can run:
+## 快速开始
 
-### `yarn start`
+1. 克隆仓库
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+git clone git@github.com:tangweikun/happy-clicker.git
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+2. 安装依赖包
 
-### `yarn test`
+```bash
+cd happy-clicker
+yarn | npm install
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. 本地运行
 
-### `yarn build`
+```bash
+yarn start | npm run start
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. 在浏览器中打开[http://localhost:3000](http://localhost:3000)查看效果
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 部署到 Github Pages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. 添加 `homepage` 到 `package.json`
 
-### `yarn eject`
+```json
+"homepage": "https://myusername.github.io/my-app",
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. 安装 `gh-pages`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn add gh-pages
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. 在`package.json`中添加部署脚本
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```json
+"scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+```
 
-## Learn More
+4. 执行 `yarn deploy`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+yarn deploy
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+5. 打开`https://myusername.github.io/my-app`查看效果
