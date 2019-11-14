@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/happy-clicker/static/css/main.a9844a89.chunk.css",
+    "main.js": "/happy-clicker/static/js/main.21a1089e.chunk.js",
+    "main.js.map": "/happy-clicker/static/js/main.21a1089e.chunk.js.map",
+    "runtime-main.js": "/happy-clicker/static/js/runtime-main.491fba23.js",
+    "runtime-main.js.map": "/happy-clicker/static/js/runtime-main.491fba23.js.map",
+    "static/js/2.0d90fa2e.chunk.js": "/happy-clicker/static/js/2.0d90fa2e.chunk.js",
+    "static/js/2.0d90fa2e.chunk.js.map": "/happy-clicker/static/js/2.0d90fa2e.chunk.js.map",
+    "index.html": "/happy-clicker/index.html",
+    "precache-manifest.72e074587739cccad7b60de20a1fe211.js": "/happy-clicker/precache-manifest.72e074587739cccad7b60de20a1fe211.js",
+    "service-worker.js": "/happy-clicker/service-worker.js",
+    "static/css/main.a9844a89.chunk.css.map": "/happy-clicker/static/css/main.a9844a89.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.491fba23.js",
+    "static/js/2.0d90fa2e.chunk.js",
+    "static/css/main.a9844a89.chunk.css",
+    "static/js/main.21a1089e.chunk.js"
+  ]
+}
