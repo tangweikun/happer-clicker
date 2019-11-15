@@ -1,7 +1,10 @@
 # Happy Clicker
 
 一个简单的计数器，可以'加一'，'减一'和'重置'
-[效果预览](https://tangweikun.github.io/happy-clicker)
+
+[在线预览](https://tangweikun.github.io/happy-clicker)
+
+<img src="./screenshot/clicker.jpg" alt='clicker' width="300">
 
 ## 快速开始
 
