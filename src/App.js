@@ -1,12 +1,11 @@
 import React from "react";
-import { Header } from "./Header";
 import { Clicker } from "./Clicker";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className="app-wrapper">
+      <nav className="header">Happy Clicker</nav>
       <Clicker />
     </div>
   );
