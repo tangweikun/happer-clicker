@@ -1,12 +1,14 @@
 .clicker-wrapper {
   width: 300px;
   height: 300px;
-  border: 1px solid red;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin: 40px auto;
 }
 
 .clicker-display {
+  font-size: 5rem;
+  color: rgba(0, 0, 0, 0.6);
   line-height: 200px;
   margin: 0 auto;
 }
@@ -20,10 +22,14 @@
 .btn-red {
   height: 100px;
   width: 100px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .btn-green {
   background: green;
+  border-bottom-left-radius: 8px;
 }
 
 .btn-orange {
@@ -32,4 +38,5 @@
 
 .btn-red {
   background: red;
+  border-bottom-right-radius: 8px;
 }
