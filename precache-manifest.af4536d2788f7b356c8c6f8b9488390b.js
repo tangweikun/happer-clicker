@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a37c564f4d0682ad822a06fcfa5f4ca8",
+    "revision": "c4491cd6a8da4421341e93a6fc8358db",
     "url": "/happy-clicker/index.html"
   },
   {
-    "revision": "6cde6f6063711a69527c",
-    "url": "/happy-clicker/static/css/main.cceb4859.chunk.css"
+    "revision": "20e7c62caf72f0a82bda",
+    "url": "/happy-clicker/static/css/main.5e56644d.chunk.css"
   },
   {
     "revision": "6e52263b54349afba843",
     "url": "/happy-clicker/static/js/2.99bfc134.chunk.js"
   },
   {
-    "revision": "6cde6f6063711a69527c",
-    "url": "/happy-clicker/static/js/main.d5b815aa.chunk.js"
+    "revision": "20e7c62caf72f0a82bda",
+    "url": "/happy-clicker/static/js/main.32d49e0e.chunk.js"
   },
   {
     "revision": "dac96f9ff6264f8e4399",
