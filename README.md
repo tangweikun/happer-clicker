@@ -29,6 +29,15 @@ yarn start | npm run start
 
 4. 在浏览器中打开[http://localhost:3000](http://localhost:3000)查看效果
 
+## 依赖库
+
+| library         | version   |
+| --------------- | --------- |
+| `react`         | `16.11.0` |
+| `react-dom`     | `16.11.0` |
+| `react-scripts` | `3.2.0`   |
+| `gh-pages`      | `2.1.1`   |
+
 ## 部署到 Github Pages
 
 1. 添加 `homepage` 到 `package.json`
